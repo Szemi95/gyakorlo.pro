@@ -27,7 +27,7 @@
     .container{
         display: grid;
         background-color: white;
-        grid-template-columns: repeat(2, 40%);
+        grid-template-columns: repeat(2, 30%);
         gap: 20px;
         align-content: center;
         margin: 0 auto;
