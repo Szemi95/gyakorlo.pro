@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 960px;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, 25%);
+    gap: 20px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.container div{
+    background-color: dodgerblue;
+    border: 3px, solid black;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 150%;
+}
+
+@media (max-width:767px) {
+    .container{
+        display: grid;
+        background-color: white;
+        grid-template-columns: repeat(2, 50%);
+        gap: 20px;
+        align-content: center;
+        margin: 0 auto;
+    }
+}
